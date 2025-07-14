@@ -25,7 +25,20 @@ df = load_data()
 # Sidebar Navigation Only
 # -------------------------------
 st.sidebar.markdown("## 🧭 Navigation")
-page = st.sidebar.radio("Select a view", ["🏠 Home", "🌍 Countries", "🏭 Sectors", "📈 Markets", "🏢 Companies"])
+st.sidebar.markdown("- 🏠 Home")
+st.sidebar.markdown("- 🌍 Countries")
+st.sidebar.markdown("- 🏭 Sectors")
+st.sidebar.markdown("- 📈 Markets")
+st.sidebar.markdown("- 🏢 Companies")
+
+# Determine the selected page
+page = st.session_state.get("page", "🏠 Home")
+if st.sidebar.button("🏠 Home"): page = "🏠 Home"
+if st.sidebar.button("🌍 Countries"): page = "🌍 Countries"
+if st.sidebar.button("🏭 Sectors"): page = "🏭 Sectors"
+if st.sidebar.button("📈 Markets"): page = "📈 Markets"
+if st.sidebar.button("🏢 Companies"): page = "🏢 Companies"
+st.session_state.page = page
 
 # -------------------------------
 # Pages
@@ -77,12 +90,19 @@ if page.startswith("🏠"):
 
     with col2:
         if not filtered_df.empty:
-            pays_counts = filtered_df["pays_HQ"].value_counts().reset_index()
-            pays_counts.columns = ["Country", "Number of Companies"]
-            fig_pays = px.bar(pays_counts, x="Country", y="Number of Companies", title="Companies by HQ Country")
-            st.plotly_chart(fig_pays, use_container_width=True)
+            revenue_by_industry = filtered_df.groupby("industrie")["revenue_2024"].sum().reset_index()
+            revenue_by_industry = revenue_by_industry.sort_values("revenue_2024", ascending=False)
+            fig_revenue = px.pie(
+                revenue_by_industry,
+                names="industrie",
+                values="revenue_2024",
+                title="Revenues by Industry",
+                color_discrete_sequence=px.colors.sequential.Oranges[::-1]
+            )
+            fig_revenue.update_traces(texttemplate='%{label}: %{percent:.0%}')
+            st.plotly_chart(fig_revenue, use_container_width=True)
         else:
-            st.info("No companies to display for this filter.")
+            st.info("No data available for industry revenue.")
 
     st.subheader("💰 Top 10 Companies by 2024 Revenue")
     df_top10 = filtered_df.copy()
@@ -121,7 +141,13 @@ elif page.startswith("📈"):
 
 elif page.startswith("🏢"):
     st.title("🏢 Company Directory")
-    selected_company = st.selectbox("Select a company", sorted(df["nom"].unique()))
+    search_term = st.text_input("🔍 Search company")
+    if search_term:
+        company_list = sorted(df[df["nom"].str.contains(search_term, case=False)]["nom"].unique())
+    else:
+        company_list = sorted(df["nom"].unique())
+
+    selected_company = st.selectbox("Select a company", company_list)
     company = df[df["nom"] == selected_company].iloc[0]
 
     colA, colB = st.columns([3, 1])
