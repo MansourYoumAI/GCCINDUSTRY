@@ -61,13 +61,16 @@ if page == "Home":
         st.plotly_chart(fig_industrie, use_container_width=True)
 
     with col2:
-        fig_pays = px.bar(
-            filtered_df["pays_HQ"].value_counts().reset_index(),
-            x="index", y="pays_HQ",
-            labels={"index": "Country", "pays_HQ": "Number of Companies"},
-            title="Companies by HQ Country"
-        )
-        st.plotly_chart(fig_pays, use_container_width=True)
+if not filtered_df.empty:
+    fig_pays = px.bar(
+        filtered_df["pays_HQ"].value_counts().reset_index(),
+        x="index", y="pays_HQ",
+        labels={"index": "Country", "pays_HQ": "Number of Companies"},
+        title="Companies by HQ Country"
+    )
+    st.plotly_chart(fig_pays, use_container_width=True)
+else:
+    st.info("Aucune entreprise à afficher pour ce filtre.")
 
     # Top 10 by revenue
     st.subheader("💰 Top 10 Companies by 2024 Revenue")
