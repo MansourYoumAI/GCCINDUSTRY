@@ -177,13 +177,10 @@ elif page == "🏢 Companies":
         st.write("**Workforce:**", company["collaborateurs"])
         st.write("**Year Founded:**", company.get("annee_creation", "N/A"))
     with col2:
-        revenue_df = pd.DataFrame({
-        "Year": ["2024"],
-        "Revenue (USD)": [company["chiffre_affaires_2024"]]
-})
-fig = px.bar(revenue_df, x="Year", y="Revenue (USD)", title="2024 Revenue")
-st.plotly_chart(fig, use_container_width=True)
-
+        revenue = company["chiffre_affaires"]
+        revenue_df = pd.DataFrame({"Year": list(revenue.keys()), "Revenue (USD)": list(revenue.values())})
+        fig = px.bar(revenue_df.sort_values("Year"), x="Year", y="Revenue (USD)", title="Revenue 2020–2024")
+        st.plotly_chart(fig, use_container_width=True)
 
     if company.get("site_web") != "N/A":
         st.markdown(f"🌐 [Website]({company['site_web']})")
