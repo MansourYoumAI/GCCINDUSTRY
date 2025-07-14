@@ -119,4 +119,70 @@ if page.startswith("🏠"):
     st.markdown("---")
     st.markdown("<div style='text-align: right; font-size: 0.8em;'>Made by Mansour YOUM, July 14 2025 • <a href='https://www.linkedin.com/in/mansour-youm/' target='_blank'>LinkedIn</a></div>", unsafe_allow_html=True)
 
-# TODO: Add logic for Countries, Sectors, Markets, and Companies pages
+elif page == "🌍 Countries":
+    st.title("🌍 Countries Overview")
+    countries = sorted(set([country for sublist in df["pays_activites"] for country in sublist]))
+    selected_country = st.selectbox("Select a country", countries)
+    country_df = df[df["pays_activites"].apply(lambda x: selected_country in x)]
+
+    st.metric("Number of Companies Active", len(country_df))
+    top_industries = country_df.groupby("industrie")["revenue_2024"].sum().sort_values(ascending=False).head(3)
+    st.bar_chart(top_industries)
+
+    st.subheader(f"Companies active in {selected_country}")
+    st.dataframe(country_df[["nom", "industrie", "marche", "collaborateurs"]])
+
+elif page == "🏭 Sectors":
+    st.title("🏭 Sector Analysis")
+    sectors = sorted(df["industrie"].unique())
+    for sector in sectors:
+        sector_df = df[df["industrie"] == sector]
+        st.subheader(f"{sector} ({len(sector_df)} companies)")
+        st.metric("Total 2024 Revenue", f"${sector_df['revenue_2024'].sum():,.0f}")
+        st.dataframe(sector_df[["nom", "marche", "pays_HQ", "collaborateurs"]])
+
+elif page == "📈 Markets":
+    st.title("📈 Market/Subsector Analysis")
+    sub_markets = sorted(df["marche"].unique())
+    selected_market = st.selectbox("Choose a market", sub_markets)
+    market_df = df[df["marche"] == selected_market]
+
+    st.metric("Number of companies", len(market_df))
+    st.subheader("Companies in this market")
+    st.dataframe(market_df[["nom", "industrie", "pays_HQ", "collaborateurs"]])
+
+elif page == "🏢 Companies":
+    st.title("🏢 Company Directory")
+    search_company = st.text_input("🔍 Search for a company")
+    filtered_companies = df[df["nom"].str.contains(search_company, case=False)] if search_company else df
+    company_list = sorted(filtered_companies["nom"].unique())
+    selected_company = st.selectbox("Select a company", company_list)
+
+    company = df[df["nom"] == selected_company].iloc[0]
+    st.header(company["nom"])
+
+    cols = st.columns([3, 1])
+    with cols[0]:
+        st.markdown(f"<div style='font-size: 1.2em; font-style: italic;'>{company['description']}</div>", unsafe_allow_html=True)
+    with cols[1]:
+        if company["logo_url"] != "N/A":
+            st.image(company["logo_url"], width=120)
+
+    col1, col2 = st.columns(2)
+    with col1:
+        st.write("**HQ Country:**", company["pays_HQ"])
+        st.write("**Countries of Operation:**", ", ".join(company["pays_activites"]))
+        st.write("**Industry:**", company["industrie"])
+        st.write("**Market:**", company["marche"])
+        st.write("**Workforce:**", company["collaborateurs"])
+        st.write("**Year Founded:**", company.get("annee_creation", "N/A"))
+    with col2:
+        revenue = company["chiffre_affaires"]
+        revenue_df = pd.DataFrame({"Year": list(revenue.keys()), "Revenue (USD)": list(revenue.values())})
+        fig = px.bar(revenue_df.sort_values("Year"), x="Year", y="Revenue (USD)", title="Revenue 2020–2024")
+        st.plotly_chart(fig, use_container_width=True)
+
+    if company.get("site_web") != "N/A":
+        st.markdown(f"🌐 [Website]({company['site_web']})")
+    if company.get("linkedin") != "N/A":
+        st.markdown(f"🔗 [LinkedIn]({company['linkedin']})")
