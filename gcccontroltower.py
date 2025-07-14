@@ -7,6 +7,13 @@ import json
 # Config
 # -------------------------------
 st.set_page_config(page_title="Gulf Industry Explorer", layout="wide")
+
+# -------------------------------
+# Initialize session state for navigation
+# -------------------------------
+if "page" not in st.session_state:
+    st.session_state.page = "🏠 Home"
+
 st.sidebar.title("🌍 Gulf Industry Explorer")
 
 # -------------------------------
@@ -112,4 +119,4 @@ if page.startswith("🏠"):
     st.markdown("---")
     st.markdown("<div style='text-align: right; font-size: 0.8em;'>Made by Mansour YOUM, July 14 2025 • <a href='https://www.linkedin.com/in/mansour-youm/' target='_blank'>LinkedIn</a></div>", unsafe_allow_html=True)
 
-# Les autres pages (Countries, Sectors, Markets, Companies) restent inchangées ici
+# TODO: Add logic for Countries, Sectors, Markets, and Companies pages
