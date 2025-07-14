@@ -69,7 +69,7 @@ if page.startswith("🏠"):
             industry_counts = filtered_df["industrie"].value_counts()
             top_industries = industry_counts[:7]
             other = pd.Series({'Other': industry_counts[7:].sum()})
-            final_data = top_industries.append(other)
+            final_data = pd.concat([top_industries, other])
 
             fig_industrie = px.pie(
                 names=final_data.index,
@@ -89,7 +89,7 @@ if page.startswith("🏠"):
             rev_data = filtered_df.groupby("industrie")["revenue_2024"].sum().sort_values(ascending=False)
             top_revs = rev_data[:7]
             other_rev = pd.Series({'Other': rev_data[7:].sum()})
-            final_rev = top_revs.append(other_rev)
+            final_rev = pd.concat([top_revs, other_rev])
 
             fig_revenue = px.pie(
                 names=final_rev.index,
