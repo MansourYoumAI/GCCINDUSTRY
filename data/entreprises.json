@@ -922,17 +922,5 @@
     "description": "Lucid Motors Middle East is establishing electric vehicle manufacturing and assembly operations in Saudi Arabia. The company represents the future of sustainable mobility in the region.",
     "site_web": "https://www.lucidmotors.com",
     "linkedin_url": "https://www.linkedin.com/company/lucid-motors/"
-  },
-  {
-    "nom": "Ceer Motors",
-    "logo_url": "https://www.ceer.sa/sites/default/files/ceer-logo.png",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar"],
-    "industrie": "Mobility & Electrification",
-    "marche": "Vehicle Assembly",
-    "chiffre_affaires_2024": 1800000000,
-    "collaborateurs": "1000–5000",
-    "annee_creation": 2021,
-    "description": "Ceer Motors is Saudi Arabia's first electric vehicle brand, a joint venture between PIF and Foxconn. The company develops and manufactures electric vehicles for the Middle East market.",
-    "site_web": "https://www.ceer.sa",
-    "linkedin_url":
+  }
+]
