@@ -56,21 +56,26 @@ if page == "Home":
     st.title("🏠 GCC Industrial Dashboard")
 
     col1, col2 = st.columns(2)
+
     with col1:
-        fig_industrie = px.pie(filtered_df, names="industrie", title="Companies by Industry")
-        st.plotly_chart(fig_industrie, use_container_width=True)
+        if not filtered_df.empty:
+            fig_industrie = px.pie(filtered_df, names="industrie", title="Companies by Industry")
+            st.plotly_chart(fig_industrie, use_container_width=True)
+        else:
+            st.info("Aucune donnée disponible pour construire le graphique des industries.")
 
     with col2:
-if not filtered_df.empty:
-    fig_pays = px.bar(
-        filtered_df["pays_HQ"].value_counts().reset_index(),
-        x="index", y="pays_HQ",
-        labels={"index": "Country", "pays_HQ": "Number of Companies"},
-        title="Companies by HQ Country"
-    )
-    st.plotly_chart(fig_pays, use_container_width=True)
-else:
-    st.info("Aucune entreprise à afficher pour ce filtre.")
+        if not filtered_df.empty:
+            fig_pays = px.bar(
+                filtered_df["pays_HQ"].value_counts().reset_index(),
+                x="index", y="pays_HQ",
+                labels={"index": "Country", "pays_HQ": "Number of Companies"},
+                title="Companies by HQ Country"
+            )
+            st.plotly_chart(fig_pays, use_container_width=True)
+        else:
+            st.info("Aucune entreprise à afficher pour ce filtre.")
+
 
     # Top 10 by revenue
     st.subheader("💰 Top 10 Companies by 2024 Revenue")
