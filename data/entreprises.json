@@ -1,690 +1,463 @@
 [
   {
-    "nom": "Saudi Aramco",
-    "logo_url": "https://www.aramco.com/content/dam/aramco/images/global/aramco-logo.svg",
+    "nom": "Saudi Arabian Oil Company (Aramco)",
+    "logo_url": "https://www.aramco.com/content/dam/aramco/global/en/images/aramco-logo.svg",
     "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait", "Oman", "Bahrain"],
     "industrie": "Energy & Petrochemicals",
     "marche": "Oil",
-    "chiffre_affaires": {
-      "2024": 440000000000,
-      "2023": 535000000000,
-      "2022": 604000000000,
-      "2021": 400000000000,
-      "2020": 230000000000
-    },
-    "collaborateurs": ">25000"
+    "chiffre_affaires_2024": 533300000000,
+    "collaborateurs": ">25000",
+    "annee_creation": 1933,
+    "description": "Saudi Aramco is the world's largest oil company and the most valuable company in the Middle East. The company operates the world's largest proven crude oil reserves and is a major player in global energy markets.",
+    "site_web": "https://www.aramco.com",
+    "linkedin_url": "https://www.linkedin.com/company/aramco/"
   },
   {
-    "nom": "SABIC",
-    "logo_url": "https://www.sabic.com/assets/img/sabic-logo.svg",
+    "nom": "Saudi Basic Industries Corporation (SABIC)",
+    "logo_url": "https://www.sabic.com/en/images/sabic-logo.svg",
     "pays_HQ": "Saudi Arabia",
     "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
     "industrie": "Energy & Petrochemicals",
     "marche": "Petrochemicals",
-    "chiffre_affaires": {
-      "2024": 45000000000,
-      "2023": 42000000000,
-      "2022": 53000000000,
-      "2021": 37000000000,
-      "2020": 32000000000
-    },
-    "collaborateurs": ">25000"
+    "chiffre_affaires_2024": 38500000000,
+    "collaborateurs": ">25000",
+    "annee_creation": 1976,
+    "description": "SABIC is a global leader in petrochemicals and one of the largest publicly listed companies in the Middle East. The company is 70% owned by Saudi Aramco and operates across diversified chemical sectors.",
+    "site_web": "https://www.sabic.com",
+    "linkedin_url": "https://www.linkedin.com/company/sabic/"
   },
   {
-    "nom": "ADNOC",
-    "logo_url": "https://www.adnoc.ae/assets/img/adnoc-logo.svg",
+    "nom": "Emirates Global Aluminium (EGA)",
+    "logo_url": "https://www.ega.ae/sites/default/files/ega-logo.png",
     "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
-    "industrie": "Energy & Petrochemicals",
-    "marche": "Oil",
-    "chiffre_affaires": {
-      "2024": 85000000000,
-      "2023": 84000000000,
-      "2022": 82000000000,
-      "2021": 60000000000,
-      "2020": 45000000000
-    },
-    "collaborateurs": ">25000"
-  },
-  {
-    "nom": "Emirates Global Aluminium",
-    "logo_url": "https://www.ega.ae/assets/img/ega-logo.svg",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
     "industrie": "Manufacturing & Light Industry",
     "marche": "Metallurgy",
-    "chiffre_affaires": {
-      "2024": 8200000000,
-      "2023": 7900000000,
-      "2022": 7500000000,
-      "2021": 7100000000,
-      "2020": 6800000000
-    },
-    "collaborateurs": "5000–10000"
+    "chiffre_affaires_2024": 11900000000,
+    "collaborateurs": "10000–25000",
+    "annee_creation": 1979,
+    "description": "Emirates Global Aluminium is one of the world's largest aluminium producers, operating smelters and refineries across the UAE. It serves clients in construction, transport and packaging sectors.",
+    "site_web": "https://www.ega.ae",
+    "linkedin_url": "https://www.linkedin.com/company/emirates-global-aluminium/"
   },
   {
-    "nom": "Qatar Energy",
-    "logo_url": "https://www.qatarenergy.qa/assets/img/qatarenergy-logo.svg",
+    "nom": "Abu Dhabi National Oil Company (ADNOC)",
+    "logo_url": "https://www.adnoc.ae/images/default-source/logos/adnoc-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Oman"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires_2024": 84200000000,
+    "collaborateurs": ">25000",
+    "annee_creation": 1971,
+    "description": "ADNOC is the state-owned oil company of the UAE and one of the world's major oil and gas companies. It operates across the entire hydrocarbon value chain from exploration to retail.",
+    "site_web": "https://www.adnoc.ae",
+    "linkedin_url": "https://www.linkedin.com/company/adnoc/"
+  },
+  {
+    "nom": "Saudi Arabian Mining Company (Ma'aden)",
+    "logo_url": "https://www.maaden.com.sa/sites/default/files/maaden-logo.png",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "Bahrain"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Metallurgy",
+    "chiffre_affaires_2024": 8700000000,
+    "collaborateurs": "5000–10000",
+    "annee_creation": 1997,
+    "description": "Ma'aden is Saudi Arabia's national mining company and a leading player in the global mining industry. The company operates in gold, phosphate, aluminum, and industrial minerals sectors.",
+    "site_web": "https://www.maaden.com.sa",
+    "linkedin_url": "https://www.linkedin.com/company/maaden/"
+  },
+  {
+    "nom": "Aluminium Bahrain (Alba)",
+    "logo_url": "https://www.alba.com.bh/sites/default/files/alba-logo.png",
+    "pays_HQ": "Bahrain",
+    "pays_activites": ["Bahrain", "Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Metallurgy",
+    "chiffre_affaires_2024": 3100000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1968,
+    "description": "Alba is one of the world's largest aluminium smelters and a major industrial company in Bahrain. The company produces high-quality aluminium products for global markets.",
+    "site_web": "https://www.alba.com.bh",
+    "linkedin_url": "https://www.linkedin.com/company/aluminium-bahrain/"
+  },
+  {
+    "nom": "Qatar Petroleum (QatarEnergy)",
+    "logo_url": "https://www.qatarenergy.qa/sites/default/files/qatarenergy-logo.svg",
     "pays_HQ": "Qatar",
     "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia", "Kuwait"],
     "industrie": "Energy & Petrochemicals",
-    "marche": "Natural Gas",
-    "chiffre_affaires": {
-      "2024": 95000000000,
-      "2023": 92000000000,
-      "2022": 85000000000,
-      "2021": 68000000000,
-      "2020": 52000000000
-    },
-    "collaborateurs": "10000–25000"
+    "marche": "Oil",
+    "chiffre_affaires_2024": 48900000000,
+    "collaborateurs": "10000–25000",
+    "annee_creation": 1974,
+    "description": "QatarEnergy is the state-owned oil and gas company of Qatar and one of the world's largest LNG producers. The company operates across the entire energy value chain.",
+    "site_web": "https://www.qatarenergy.qa",
+    "linkedin_url": "https://www.linkedin.com/company/qatarenergy/"
   },
   {
-    "nom": "Kuwait Petroleum Corporation",
-    "logo_url": "N/A",
+    "nom": "Kuwait Petroleum Corporation (KPC)",
+    "logo_url": "https://www.kpc.com.kw/sites/default/files/kpc-logo.png",
     "pays_HQ": "Kuwait",
-    "pays_activites": ["Kuwait", "Saudi Arabia", "United Arab Emirates"],
+    "pays_activites": ["Kuwait", "Saudi Arabia", "United Arab Emirates", "Qatar"],
     "industrie": "Energy & Petrochemicals",
     "marche": "Oil",
-    "chiffre_affaires": {
-      "2024": 75000000000,
-      "2023": 73000000000,
-      "2022": 78000000000,
-      "2021": 55000000000,
-      "2020": 42000000000
-    },
-    "collaborateurs": "10000–25000"
+    "chiffre_affaires_2024": 87400000000,
+    "collaborateurs": ">25000",
+    "annee_creation": 1980,
+    "description": "KPC is the state-owned oil company of Kuwait and manages the country's oil and gas resources. The company operates refineries, petrochemical plants, and marketing operations globally.",
+    "site_web": "https://www.kpc.com.kw",
+    "linkedin_url": "https://www.linkedin.com/company/kuwait-petroleum-corporation/"
   },
   {
-    "nom": "Borouge",
-    "logo_url": "https://www.borouge.com/assets/img/borouge-logo.svg",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "nom": "Petroleum Development Oman (PDO)",
+    "logo_url": "https://www.pdo.co.om/sites/default/files/pdo-logo.png",
+    "pays_HQ": "Oman",
+    "pays_activites": ["Oman", "United Arab Emirates"],
     "industrie": "Energy & Petrochemicals",
-    "marche": "Petrochemicals",
-    "chiffre_affaires": {
-      "2024": 12000000000,
-      "2023": 11500000000,
-      "2022": 13200000000,
-      "2021": 9800000000,
-      "2020": 8500000000
-    },
-    "collaborateurs": "5000–10000"
+    "marche": "Oil",
+    "chiffre_affaires_2024": 12800000000,
+    "collaborateurs": "5000–10000",
+    "annee_creation": 1967,
+    "description": "PDO is Oman's leading oil and gas exploration and production company. The company is responsible for the majority of Oman's oil and gas production and operates extensive infrastructure.",
+    "site_web": "https://www.pdo.co.om",
+    "linkedin_url": "https://www.linkedin.com/company/petroleum-development-oman/"
   },
   {
-    "nom": "Ma'aden",
-    "logo_url": "https://www.maaden.com.sa/assets/img/maaden-logo.svg",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "nom": "Emirates Steel",
+    "logo_url": "https://www.emiratessteel.com/sites/default/files/emirates-steel-logo.png",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait"],
     "industrie": "Manufacturing & Light Industry",
     "marche": "Metallurgy",
-    "chiffre_affaires": {
-      "2024": 8500000000,
-      "2023": 8200000000,
-      "2022": 7800000000,
-      "2021": 7400000000,
-      "2020": 7000000000
-    },
-    "collaborateurs": "5000–10000"
+    "chiffre_affaires_2024": 2400000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1998,
+    "description": "Emirates Steel is the largest steel producer in the UAE and a leading construction materials company. The company serves the construction and infrastructure sectors across the GCC.",
+    "site_web": "https://www.emiratessteel.com",
+    "linkedin_url": "https://www.linkedin.com/company/emirates-steel/"
   },
   {
-    "nom": "Almarai",
-    "logo_url": "https://www.almarai.com/assets/img/almarai-logo.svg",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
-    "industrie": "Manufacturing & Light Industry",
-    "marche": "Food Processing",
-    "chiffre_affaires": {
-      "2024": 4500000000,
-      "2023": 4200000000,
-      "2022": 4000000000,
-      "2021": 3800000000,
-      "2020": 3600000000
-    },
-    "collaborateurs": "10000–25000"
+    "nom": "ADNOC Drilling",
+    "logo_url": "https://www.adnocdrilling.ae/sites/default/files/adnoc-drilling-logo.png",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Kuwait", "Oman"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires_2024": 3200000000,
+    "collaborateurs": "5000–10000",
+    "annee_creation": 1972,
+    "description": "ADNOC Drilling is the largest drilling company in the Middle East and provides integrated drilling services. The company operates the world's largest fleet of land rigs.",
+    "site_web": "https://www.adnocdrilling.ae",
+    "linkedin_url": "https://www.linkedin.com/company/adnoc-drilling/"
   },
   {
-    "nom": "National Industries Group",
-    "logo_url": "N/A",
-    "pays_HQ": "Kuwait",
-    "pays_activites": ["Kuwait", "Saudi Arabia", "United Arab Emirates"],
+    "nom": "Qatar Industries",
+    "logo_url": "https://www.qatarindustries.com/sites/default/files/qi-logo.png",
+    "pays_HQ": "Qatar",
+    "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia"],
     "industrie": "Manufacturing & Light Industry",
     "marche": "Light Manufacturing",
-    "chiffre_affaires": {
-      "2024": 2800000000,
-      "2023": 2600000000,
-      "2022": 2400000000,
-      "2021": 2200000000,
-      "2020": 2000000000
-    },
-    "collaborateurs": "5000–10000"
-  },
-  {
-    "nom": "Emaar Properties",
-    "logo_url": "https://www.emaar.com/assets/img/emaar-logo.svg",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Construction & Materials",
-    "marche": "Construction",
-    "chiffre_affaires": {
-      "2024": 7200000000,
-      "2023": 6800000000,
-      "2022": 6400000000,
-      "2021": 6000000000,
-      "2020": 5600000000
-    },
-    "collaborateurs": "5000–10000"
-  },
-  {
-    "nom": "Al Habtoor Group",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Construction & Materials",
-    "marche": "Construction",
-    "chiffre_affaires": {
-      "2024": 3200000000,
-      "2023": 3000000000,
-      "2022": 2800000000,
-      "2021": 2600000000,
-      "2020": 2400000000
-    },
-    "collaborateurs": "5000–10000"
-  },
-  {
-    "nom": "Damac Properties",
-    "logo_url": "https://www.damacproperties.com/assets/img/damac-logo.svg",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Construction & Materials",
-    "marche": "Construction",
-    "chiffre_affaires": {
-      "2024": 2800000000,
-      "2023": 2600000000,
-      "2022": 2400000000,
-      "2021": 2200000000,
-      "2020": 2000000000
-    },
-    "collaborateurs": "1000–5000"
+    "chiffre_affaires_2024": 1800000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1990,
+    "description": "Qatar Industries is a leading industrial conglomerate in Qatar with diversified manufacturing operations. The company operates in petrochemicals, steel, and fertilizers sectors.",
+    "site_web": "https://www.qatarindustries.com",
+    "linkedin_url": "https://www.linkedin.com/company/qatar-industries/"
   },
   {
     "nom": "Saudi Cement Company",
-    "logo_url": "N/A",
+    "logo_url": "https://www.saudicement.com.sa/sites/default/files/saudi-cement-logo.png",
     "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar"],
     "industrie": "Construction & Materials",
     "marche": "Building Materials",
-    "chiffre_affaires": {
-      "2024": 1500000000,
-      "2023": 1400000000,
-      "2022": 1300000000,
-      "2021": 1200000000,
-      "2020": 1100000000
-    },
-    "collaborateurs": "1000–5000"
+    "chiffre_affaires_2024": 950000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1955,
+    "description": "Saudi Cement Company is one of the largest cement producers in the Middle East. The company supplies cement and building materials to construction projects across the GCC region.",
+    "site_web": "https://www.saudicement.com.sa",
+    "linkedin_url": "https://www.linkedin.com/company/saudi-cement-company/"
   },
   {
-    "nom": "Arabtec Construction",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Construction & Materials",
-    "marche": "Construction",
-    "chiffre_affaires": {
-      "2024": 2200000000,
-      "2023": 2100000000,
-      "2022": 2000000000,
-      "2021": 1900000000,
-      "2020": 1800000000
-    },
-    "collaborateurs": "5000–10000"
+    "nom": "Gulf Petrochemical Industries Company (GPIC)",
+    "logo_url": "https://www.gpic.com/sites/default/files/gpic-logo.png",
+    "pays_HQ": "Bahrain",
+    "pays_activites": ["Bahrain", "Saudi Arabia", "United Arab Emirates", "Kuwait"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Petrochemicals",
+    "chiffre_affaires_2024": 1200000000,
+    "collaborateurs": "500–1000",
+    "annee_creation": 1979,
+    "description": "GPIC is a joint venture between Bahrain, Saudi Arabia, and Kuwait, specializing in petrochemicals production. The company produces ammonia, urea, and methanol for global markets.",
+    "site_web": "https://www.gpic.com",
+    "linkedin_url": "https://www.linkedin.com/company/gulf-petrochemical-industries-company/"
   },
   {
     "nom": "Masdar",
-    "logo_url": "https://masdar.ae/assets/img/masdar-logo.svg",
+    "logo_url": "https://www.masdar.ae/sites/default/files/masdar-logo.svg",
     "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Oman"],
     "industrie": "Renewable Energy",
     "marche": "Solar",
-    "chiffre_affaires": {
-      "2024": 2500000000,
-      "2023": 2300000000,
-      "2022": 2100000000,
-      "2021": 1900000000,
-      "2020": 1700000000
-    },
-    "collaborateurs": "1000–5000"
+    "chiffre_affaires_2024": 4200000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 2006,
+    "description": "Masdar is a leading renewable energy company and a pioneer in sustainable urban development. The company develops clean energy projects and sustainable technologies across the region.",
+    "site_web": "https://www.masdar.ae",
+    "linkedin_url": "https://www.linkedin.com/company/masdar/"
   },
   {
     "nom": "ACWA Power",
-    "logo_url": "https://www.acwapower.com/assets/img/acwa-logo.svg",
+    "logo_url": "https://www.acwapower.com/sites/default/files/acwa-power-logo.png",
     "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Oman"],
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait", "Oman"],
     "industrie": "Renewable Energy",
     "marche": "Solar",
-    "chiffre_affaires": {
-      "2024": 3200000000,
-      "2023": 3000000000,
-      "2022": 2800000000,
-      "2021": 2600000000,
-      "2020": 2400000000
-    },
-    "collaborateurs": "1000–5000"
+    "chiffre_affaires_2024": 3800000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 2004,
+    "description": "ACWA Power is a leading developer and operator of power generation and desalinated water production plants. The company specializes in renewable energy and water desalination projects.",
+    "site_web": "https://www.acwapower.com",
+    "linkedin_url": "https://www.linkedin.com/company/acwa-power/"
   },
   {
-    "nom": "Yellow Door Energy",
-    "logo_url": "N/A",
+    "nom": "Borouge",
+    "logo_url": "https://www.borouge.com/sites/default/files/borouge-logo.png",
     "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Renewable Energy",
-    "marche": "Solar",
-    "chiffre_affaires": {
-      "2024": 450000000,
-      "2023": 420000000,
-      "2022": 380000000,
-      "2021": 350000000,
-      "2020": 320000000
-    },
-    "collaborateurs": "500–1000"
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Petrochemicals",
+    "chiffre_affaires_2024": 8900000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1998,
+    "description": "Borouge is a leading petrochemicals company and a joint venture between ADNOC and Borealis. The company produces polyolefins and other petrochemical products for global markets.",
+    "site_web": "https://www.borouge.com",
+    "linkedin_url": "https://www.linkedin.com/company/borouge/"
   },
   {
-    "nom": "Qatar Solar Technologies",
-    "logo_url": "N/A",
+    "nom": "Qatar Steel",
+    "logo_url": "https://www.qatarsteel.com.qa/sites/default/files/qatar-steel-logo.png",
     "pays_HQ": "Qatar",
-    "pays_activites": ["Qatar", "United Arab Emirates"],
-    "industrie": "Renewable Energy",
-    "marche": "Solar",
-    "chiffre_affaires": {
-      "2024": 850000000,
-      "2023": 800000000,
-      "2022": 750000000,
-      "2021": 700000000,
-      "2020": 650000000
-    },
-    "collaborateurs": "1000–5000"
+    "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia", "Kuwait"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Metallurgy",
+    "chiffre_affaires_2024": 1100000000,
+    "collaborateurs": "500–1000",
+    "annee_creation": 1974,
+    "description": "Qatar Steel is the largest steel producer in Qatar and a key supplier to the construction and infrastructure sectors. The company operates integrated steel production facilities.",
+    "site_web": "https://www.qatarsteel.com.qa",
+    "linkedin_url": "https://www.linkedin.com/company/qatar-steel/"
   },
   {
-    "nom": "Siraj Power",
-    "logo_url": "N/A",
-    "pays_HQ": "Qatar",
-    "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Renewable Energy",
-    "marche": "Solar",
-    "chiffre_affaires": {
-      "2024": 680000000,
-      "2023": 650000000,
-      "2022": 620000000,
-      "2021": 590000000,
-      "2020": 560000000
-    },
-    "collaborateurs": "500–1000"
+    "nom": "Saudi Arabian Fertilizer Company (SAFCO)",
+    "logo_url": "https://www.safco.com.sa/sites/default/files/safco-logo.png",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Petrochemicals",
+    "chiffre_affaires_2024": 2800000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1965,
+    "description": "SAFCO is a major fertilizer producer in Saudi Arabia and supplies agricultural nutrients globally. The company is a subsidiary of SABIC and operates modern fertilizer production facilities.",
+    "site_web": "https://www.safco.com.sa",
+    "linkedin_url": "https://www.linkedin.com/company/saudi-arabian-fertilizer-company/"
+  },
+  {
+    "nom": "Bahrain Petroleum Company (Bapco)",
+    "logo_url": "https://www.bapco.net/sites/default/files/bapco-logo.png",
+    "pays_HQ": "Bahrain",
+    "pays_activites": ["Bahrain", "Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Refining",
+    "chiffre_affaires_2024": 8200000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1929,
+    "description": "Bapco is Bahrain's national oil company and operates the country's oil refinery and downstream operations. The company has a long history in oil refining and petrochemicals.",
+    "site_web": "https://www.bapco.net",
+    "linkedin_url": "https://www.linkedin.com/company/bahrain-petroleum-company/"
+  },
+  {
+    "nom": "DP World",
+    "logo_url": "https://www.dpworld.com/sites/default/files/dp-world-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Oman", "Bahrain"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires_2024": 12300000000,
+    "collaborateurs": ">25000",
+    "annee_creation": 1999,
+    "description": "DP World is a leading global port operator and logistics company headquartered in Dubai. The company operates marine terminals, logistics facilities, and free zones across the GCC region.",
+    "site_web": "https://www.dpworld.com",
+    "linkedin_url": "https://www.linkedin.com/company/dp-world/"
+  },
+  {
+    "nom": "Abu Dhabi Ports",
+    "logo_url": "https://www.adports.ae/sites/default/files/ad-ports-logo.png",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires_2024": 2800000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 2006,
+    "description": "Abu Dhabi Ports is a leading ports and logistics company that operates Khalifa Port and other maritime facilities. The company provides integrated logistics solutions across the region.",
+    "site_web": "https://www.adports.ae",
+    "linkedin_url": "https://www.linkedin.com/company/abu-dhabi-ports/"
+  },
+  {
+    "nom": "National Shipping Company of Saudi Arabia (Bahri)",
+    "logo_url": "https://www.bahri.sa/sites/default/files/bahri-logo.png",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait", "Oman"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires_2024": 1900000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1978,
+    "description": "Bahri is the national shipping company of Saudi Arabia and one of the largest shipping companies in the Middle East. The company operates oil tankers, chemical carriers, and dry bulk vessels.",
+    "site_web": "https://www.bahri.sa",
+    "linkedin_url": "https://www.linkedin.com/company/bahri/"
+  },
+  {
+    "nom": "Oman Oil Company",
+    "logo_url": "https://www.omanoil.com/sites/default/files/oman-oil-logo.png",
+    "pays_HQ": "Oman",
+    "pays_activites": ["Oman", "United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires_2024": 6400000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1996,
+    "description": "Oman Oil Company is the commercial arm of the Omani government in the energy sector. The company invests in oil and gas projects and operates across the hydrocarbon value chain.",
+    "site_web": "https://www.omanoil.com",
+    "linkedin_url": "https://www.linkedin.com/company/oman-oil-company/"
+  },
+  {
+    "nom": "Saudi Electricity Company (SEC)",
+    "logo_url": "https://www.se.com.sa/sites/default/files/sec-logo.png",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires_2024": 15200000000,
+    "collaborateurs": ">25000",
+    "annee_creation": 1999,
+    "description": "Saudi Electricity Company is the national electricity company of Saudi Arabia and one of the largest utility companies in the Middle East. The company generates, transmits, and distributes electricity nationwide.",
+    "site_web": "https://www.se.com.sa",
+    "linkedin_url": "https://www.linkedin.com/company/saudi-electricity-company/"
+  },
+  {
+    "nom": "Kuwait National Petroleum Company (KNPC)",
+    "logo_url": "https://www.knpc.com/sites/default/files/knpc-logo.png",
+    "pays_HQ": "Kuwait",
+    "pays_activites": ["Kuwait", "Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Refining",
+    "chiffre_affaires_2024": 24300000000,
+    "collaborateurs": "5000–10000",
+    "annee_creation": 1960,
+    "description": "KNPC is Kuwait's national oil refining company and operates the country's major refineries. The company refines crude oil and produces petroleum products for domestic and international markets.",
+    "site_web": "https://www.knpc.com",
+    "linkedin_url": "https://www.linkedin.com/company/kuwait-national-petroleum-company/"
+  },
+  {
+    "nom": "Tabreed",
+    "logo_url": "https://www.tabreed.ae/sites/default/files/tabreed-logo.png",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
+    "industrie": "Industrial Technology",
+    "marche": "Industrial R&D",
+    "chiffre_affaires_2024": 680000000,
+    "collaborateurs": "500–1000",
+    "annee_creation": 1998,
+    "description": "Tabreed is a leading district cooling service provider in the GCC region. The company operates energy-efficient cooling systems for commercial and residential developments.",
+    "site_web": "https://www.tabreed.ae",
+    "linkedin_url": "https://www.linkedin.com/company/tabreed/"
+  },
+  {
+    "nom": "Julphar",
+    "logo_url": "https://www.julphar.net/sites/default/files/julphar-logo.png",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Oman"],
+    "industrie": "Pharmaceuticals & Biotechnology",
+    "marche": "Pharmaceutical Production",
+    "chiffre_affaires_2024": 280000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 1980,
+    "description": "Julphar is one of the largest pharmaceutical companies in the Middle East. The company manufactures and distributes pharmaceutical products across the GCC and international markets.",
+    "site_web": "https://www.julphar.net",
+    "linkedin_url": "https://www.linkedin.com/company/julphar/"
+  },
+  {
+    "nom": "NEOM",
+    "logo_url": "https://www.neom.com/sites/default/files/neom-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia"],
+    "industrie": "Industrial Technology",
+    "marche": "Industrial R&D",
+    "chiffre_affaires_2024": 2100000000,
+    "collaborateurs": "5000–10000",
+    "annee_creation": 2017,
+    "description": "NEOM is a futuristic mega-city project in Saudi Arabia that integrates advanced technology and sustainable living. The project represents a new model for urban development and industrial innovation.",
+    "site_web": "https://www.neom.com",
+    "linkedin_url": "https://www.linkedin.com/company/neom/"
+  },
+  {
+    "nom": "Mubadala Investment Company",
+    "logo_url": "https://www.mubadala.com/sites/default/files/mubadala-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Kuwait", "Oman"],
+    "industrie": "Industrial Technology",
+    "marche": "Industrial R&D",
+    "chiffre_affaires_2024": 14600000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 2002,
+    "description": "Mubadala is a sovereign wealth fund that invests in strategic sectors including aerospace, renewable energy, and technology. The company drives economic diversification and industrial development.",
+    "site_web": "https://www.mubadala.com",
+    "linkedin_url": "https://www.linkedin.com/company/mubadala/"
   },
   {
     "nom": "Strata Manufacturing",
-    "logo_url": "N/A",
+    "logo_url": "https://www.stratamanufacturing.com/sites/default/files/strata-logo.png",
     "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
     "industrie": "Aerospace & Defense",
     "marche": "Aerospace Assembly",
-    "chiffre_affaires": {
-      "2024": 1200000000,
-      "2023": 1100000000,
-      "2022": 1000000000,
-      "2021": 900000000,
-      "2020": 800000000
-    },
-    "collaborateurs": "1000–5000"
+    "chiffre_affaires_2024": 420000000,
+    "collaborateurs": "500–1000",
+    "annee_creation": 2009,
+    "description": "Strata Manufacturing is a leading aerospace manufacturing company in the Middle East. The company produces aircraft components and structures for major aerospace manufacturers worldwide.",
+    "site_web": "https://www.stratamanufacturing.com",
+    "linkedin_url": "https://www.linkedin.com/company/strata-manufacturing/"
   },
   {
-    "nom": "Saudi Arabian Military Industries",
-    "logo_url": "N/A",
+    "nom": "Saudi Arabian Military Industries (SAMI)",
+    "logo_url": "https://www.sami.com.sa/sites/default/files/sami-logo.png",
     "pays_HQ": "Saudi Arabia",
     "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
     "industrie": "Aerospace & Defense",
     "marche": "Defense",
-    "chiffre_affaires": {
-      "2024": 2800000000,
-      "2023": 2600000000,
-      "2022": 2400000000,
-      "2021": 2200000000,
-      "2020": 2000000000
-    },
-    "collaborateurs": "5000–10000"
+    "chiffre_affaires_2024": 1300000000,
+    "collaborateurs": "1000–5000",
+    "annee_creation": 2017,
+    "description": "SAMI is a strategic defense company that develops and manufactures defense systems and technologies. The company aims to build a sustainable defense industry in Saudi Arabia.",
+    "site_web": "https://www.sami.com.sa",
+    "linkedin_url": "https://www.linkedin.com/company/saudi-arabian-military-industries/"
   },
   {
-    "nom": "Mubadala Aerospace",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Aerospace & Defense",
-    "marche": "MRO",
-    "chiffre_affaires": {
-      "2024": 1800000000,
-      "2023": 1700000000,
-      "2022": 1600000000,
-      "2021": 1500000000,
-      "2020": 1400000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Calidus",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Aerospace & Defense",
-    "marche": "Aerospace Assembly",
-    "chiffre_affaires": {
-      "2024": 650000000,
-      "2023": 600000000,
-      "2022": 550000000,
-      "2021": 500000000,
-      "2020": 450000000
-    },
-    "collaborateurs": "500–1000"
-  },
-  {
-    "nom": "Julphar",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Pharmaceuticals & Biotechnology",
-    "marche": "Pharmaceutical Production",
-    "chiffre_affaires": {
-      "2024": 850000000,
-      "2023": 800000000,
-      "2022": 750000000,
-      "2021": 700000000,
-      "2020": 650000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Spimaco",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Kuwait"],
-    "industrie": "Pharmaceuticals & Biotechnology",
-    "marche": "Pharmaceutical Production",
-    "chiffre_affaires": {
-      "2024": 1200000000,
-      "2023": 1100000000,
-      "2022": 1000000000,
-      "2021": 900000000,
-      "2020": 800000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Tabuk Pharmaceutical",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
-    "industrie": "Pharmaceuticals & Biotechnology",
-    "marche": "Pharmaceutical Production",
-    "chiffre_affaires": {
-      "2024": 680000000,
-      "2023": 650000000,
-      "2022": 620000000,
-      "2021": 590000000,
-      "2020": 560000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Riyadh Pharma",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "Kuwait"],
-    "industrie": "Pharmaceuticals & Biotechnology",
-    "marche": "Pharmaceutical Production",
-    "chiffre_affaires": {
-      "2024": 450000000,
-      "2023": 420000000,
-      "2022": 390000000,
-      "2021": 360000000,
-      "2020": 330000000
-    },
-    "collaborateurs": "500–1000"
-  },
-  {
-    "nom": "DP World",
-    "logo_url": "https://www.dpworld.com/assets/img/dp-world-logo.svg",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
-    "industrie": "Logistics & Industrial Free Zones",
-    "marche": "Ports & Logistics Hubs",
-    "chiffre_affaires": {
-      "2024": 12500000000,
-      "2023": 11800000000,
-      "2022": 11200000000,
-      "2021": 10600000000,
-      "2020": 10000000000
-    },
-    "collaborateurs": "10000–25000"
-  },
-  {
-    "nom": "Jebel Ali Free Zone",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Logistics & Industrial Free Zones",
-    "marche": "Trade/Service Free Zones",
-    "chiffre_affaires": {
-      "2024": 5200000000,
-      "2023": 4900000000,
-      "2022": 4600000000,
-      "2021": 4300000000,
-      "2020": 4000000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Saudi Logistics Services",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar"],
-    "industrie": "Logistics & Industrial Free Zones",
-    "marche": "Ports & Logistics Hubs",
-    "chiffre_affaires": {
-      "2024": 3800000000,
-      "2023": 3600000000,
-      "2022": 3400000000,
-      "2021": 3200000000,
-      "2020": 3000000000
-    },
-    "collaborateurs": "5000–10000"
-  },
-  {
-    "nom": "Hamad Port",
-    "logo_url": "N/A",
+    "nom": "Qatar Solar Technologies",
+    "logo_url": "https://www.qstec.com/sites/default/files/qstec-logo.png",
     "pays_HQ": "Qatar",
-    "pays_activites": ["Qatar", "United Arab Emirates"],
-    "industrie": "Logistics & Industrial Free Zones",
-    "marche": "Ports & Logistics Hubs",
-    "chiffre_affaires": {
-      "2024": 2200000000,
-      "2023": 2100000000,
-      "2022": 2000000000,
-      "2021": 1900000000,
-      "2020": 1800000000
-    },
-    "collaborateurs": "1000–5000"
+    "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Renewable Energy",
+    "marche": "Solar",
+    "chiffre_affaires_2024": 190000000,
+    "collaborateurs": "500–1000",
+    "annee_creation": 2008,
+    "description": "Qatar Solar Technologies is a leading solar technology company that produces polysilicon and photovoltaic products. The company contributes to renewable energy development in the region.",
+    "site_web": "https://www.qstec.com",
+    "linkedin_url": "https://www.linkedin.com/company/qatar-solar-technologies/"
   },
-  {
-    "nom": "Sohar Port",
-    "logo_url": "N/A",
-    "pays_HQ": "Oman",
-    "pays_activites": ["Oman", "United Arab Emirates"],
-    "industrie": "Logistics & Industrial Free Zones",
-    "marche": "Ports & Logistics Hubs",
-    "chiffre_affaires": {
-      "2024": 1400000000,
-      "2023": 1300000000,
-      "2022": 1200000000,
-      "2021": 1100000000,
-      "2020": 1000000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Etisalat by e&",
-    "logo_url": "https://www.etisalat.ae/assets/img/etisalat-logo.svg",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
-    "industrie": "Industrial Technology",
-    "marche": "IoT",
-    "chiffre_affaires": {
-      "2024": 14200000000,
-      "2023": 13800000000,
-      "2022": 13400000000,
-      "2021": 13000000000,
-      "2020": 12600000000
-    },
-    "collaborateurs": "10000–25000"
-  },
-  {
-    "nom": "STC",
-    "logo_url": "https://www.stc.com.sa/assets/img/stc-logo.svg",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
-    "industrie": "Industrial Technology",
-    "marche": "IoT",
-    "chiffre_affaires": {
-      "2024": 15800000000,
-      "2023": 15400000000,
-      "2022": 15000000000,
-      "2021": 14600000000,
-      "2020": 14200000000
-    },
-    "collaborateurs": "10000–25000"
-  },
-  {
-    "nom": "Khazna Data Centers",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Industrial Technology",
-    "marche": "Data Centers",
-    "chiffre_affaires": {
-      "2024": 850000000,
-      "2023": 800000000,
-      "2022": 750000000,
-      "2021": 700000000,
-      "2020": 650000000
-    },
-    "collaborateurs": "500–1000"
-  },
-  {
-    "nom": "NEOM Tech & Digital",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
-    "industrie": "Industrial Technology",
-    "marche": "Industrial R&D",
-    "chiffre_affaires": {
-      "2024": 1500000000,
-      "2023": 1400000000,
-      "2022": 1300000000,
-      "2021": 1200000000,
-      "2020": 1100000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Al-Futtaim Automotive",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Mobility & Electrification",
-    "marche": "Vehicle Assembly",
-    "chiffre_affaires": {
-      "2024": 4200000000,
-      "2023": 4000000000,
-      "2022": 3800000000,
-      "2021": 3600000000,
-      "2020": 3400000000
-    },
-    "collaborateurs": "5000–10000"
-  },
-  {
-    "nom": "Lucid Motors Middle East",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
-    "industrie": "Mobility & Electrification",
-    "marche": "EV Ecosystem",
-    "chiffre_affaires": {
-      "2024": 2800000000,
-      "2023": 2600000000,
-      "2022": 2400000000,
-      "2021": 2200000000,
-      "2020": 2000000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Ceer Motors",
-    "logo_url": "N/A",
-    "pays_HQ": "Saudi Arabia",
-    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
-    "industrie": "Mobility & Electrification",
-    "marche": "EV Ecosystem",
-    "chiffre_affaires": {
-      "2024": 1200000000,
-      "2023": 1100000000,
-      "2022": 1000000000,
-      "2021": 900000000,
-      "2020": 800000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Al Ghurair Investment",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Manufacturing & Light Industry",
-    "marche": "Light Manufacturing",
-    "chiffre_affaires": {
-      "2024": 2400000000,
-      "2023": 2200000000,
-      "2022": 2000000000,
-      "2021": 1800000000,
-      "2020": 1600000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Al Ain Dairy",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
-    "industrie": "Agri-Industry",
-    "marche": "Food Transformation",
-    "chiffre_affaires": {
-      "2024": 1100000000,
-      "2023": 1000000000,
-      "2022": 950000000,
-      "2021": 900000000,
-      "2020": 850000000
-    },
-    "collaborateurs": "1000–5000"
-  },
-  {
-    "nom": "Agthia Group",
-    "logo_url": "N/A",
-    "pays_HQ": "United Arab Emirates",
-    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
-    "industrie": "Agri-Industry",
-    "marche": "Food Transformation",
-    "chiffre_affaires": {
-      "2024": 1400000000,
-      "2023": 1300000000,
-      "2022": 1200000000,
-      "2021": 1100000000,
-      "2020": 1000000000
-    },
-    "collaborateurs": "1000–5000"
-  }
-]
