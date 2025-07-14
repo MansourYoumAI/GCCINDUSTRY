@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from st_aggrid import AgGrid, GridOptionsBuilder
+# Supprime ou commente cette ligne, si tu ne veux pas utiliser AgGrid
+# from st_aggrid import AgGrid
 import json
 
 # -------------------------------
@@ -91,7 +92,7 @@ elif page == "Countries":
     st.bar_chart(top_industries)
 
     st.subheader("Companies active in " + selected_country)
-    AgGrid(country_df[["nom", "industrie", "marche", "collaborateurs"]])
+    st.dataframe(country_df[["nom", "industrie", "marche", "collaborateurs"]])
 
 # -------------------------------
 # Sectors Page
@@ -105,7 +106,7 @@ elif page == "Sectors":
         st.subheader(f"{sector} ({len(sector_df)} companies)")
         sector_df["total_rev"] = sector_df["chiffre_affaires"].apply(lambda x: x.get("2024", 0))
         st.metric("Total 2024 Revenue", f"${sector_df['total_rev'].sum():,.0f}")
-        AgGrid(sector_df[["nom", "marche", "pays_HQ", "collaborateurs"]])
+        st.dataframe(sector_df[["nom", "marche", "pays_HQ", "collaborateurs"]])
 
 # -------------------------------
 # Markets Page
@@ -118,7 +119,7 @@ elif page == "Markets":
     market_df = filtered_df[filtered_df["marche"] == selected_market]
     st.metric("Number of companies", len(market_df))
     st.subheader("Companies in this market")
-    AgGrid(market_df[["nom", "industrie", "pays_HQ", "collaborateurs"]])
+    st.dataframe(market_df[["nom", "industrie", "pays_HQ", "collaborateurs"]])
 
 # -------------------------------
 # Company Page
