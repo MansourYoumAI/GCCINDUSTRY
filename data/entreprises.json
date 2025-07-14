@@ -1,0 +1,690 @@
+[
+  {
+    "nom": "Saudi Aramco",
+    "logo_url": "https://www.aramco.com/content/dam/aramco/images/global/aramco-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires": {
+      "2024": 440000000000,
+      "2023": 535000000000,
+      "2022": 604000000000,
+      "2021": 400000000000,
+      "2020": 230000000000
+    },
+    "collaborateurs": ">25000"
+  },
+  {
+    "nom": "SABIC",
+    "logo_url": "https://www.sabic.com/assets/img/sabic-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Petrochemicals",
+    "chiffre_affaires": {
+      "2024": 45000000000,
+      "2023": 42000000000,
+      "2022": 53000000000,
+      "2021": 37000000000,
+      "2020": 32000000000
+    },
+    "collaborateurs": ">25000"
+  },
+  {
+    "nom": "ADNOC",
+    "logo_url": "https://www.adnoc.ae/assets/img/adnoc-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires": {
+      "2024": 85000000000,
+      "2023": 84000000000,
+      "2022": 82000000000,
+      "2021": 60000000000,
+      "2020": 45000000000
+    },
+    "collaborateurs": ">25000"
+  },
+  {
+    "nom": "Emirates Global Aluminium",
+    "logo_url": "https://www.ega.ae/assets/img/ega-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Metallurgy",
+    "chiffre_affaires": {
+      "2024": 8200000000,
+      "2023": 7900000000,
+      "2022": 7500000000,
+      "2021": 7100000000,
+      "2020": 6800000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Qatar Energy",
+    "logo_url": "https://www.qatarenergy.qa/assets/img/qatarenergy-logo.svg",
+    "pays_HQ": "Qatar",
+    "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia", "Kuwait"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Natural Gas",
+    "chiffre_affaires": {
+      "2024": 95000000000,
+      "2023": 92000000000,
+      "2022": 85000000000,
+      "2021": 68000000000,
+      "2020": 52000000000
+    },
+    "collaborateurs": "10000–25000"
+  },
+  {
+    "nom": "Kuwait Petroleum Corporation",
+    "logo_url": "N/A",
+    "pays_HQ": "Kuwait",
+    "pays_activites": ["Kuwait", "Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Oil",
+    "chiffre_affaires": {
+      "2024": 75000000000,
+      "2023": 73000000000,
+      "2022": 78000000000,
+      "2021": 55000000000,
+      "2020": 42000000000
+    },
+    "collaborateurs": "10000–25000"
+  },
+  {
+    "nom": "Borouge",
+    "logo_url": "https://www.borouge.com/assets/img/borouge-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Energy & Petrochemicals",
+    "marche": "Petrochemicals",
+    "chiffre_affaires": {
+      "2024": 12000000000,
+      "2023": 11500000000,
+      "2022": 13200000000,
+      "2021": 9800000000,
+      "2020": 8500000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Ma'aden",
+    "logo_url": "https://www.maaden.com.sa/assets/img/maaden-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Metallurgy",
+    "chiffre_affaires": {
+      "2024": 8500000000,
+      "2023": 8200000000,
+      "2022": 7800000000,
+      "2021": 7400000000,
+      "2020": 7000000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Almarai",
+    "logo_url": "https://www.almarai.com/assets/img/almarai-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Food Processing",
+    "chiffre_affaires": {
+      "2024": 4500000000,
+      "2023": 4200000000,
+      "2022": 4000000000,
+      "2021": 3800000000,
+      "2020": 3600000000
+    },
+    "collaborateurs": "10000–25000"
+  },
+  {
+    "nom": "National Industries Group",
+    "logo_url": "N/A",
+    "pays_HQ": "Kuwait",
+    "pays_activites": ["Kuwait", "Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Light Manufacturing",
+    "chiffre_affaires": {
+      "2024": 2800000000,
+      "2023": 2600000000,
+      "2022": 2400000000,
+      "2021": 2200000000,
+      "2020": 2000000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Emaar Properties",
+    "logo_url": "https://www.emaar.com/assets/img/emaar-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Construction & Materials",
+    "marche": "Construction",
+    "chiffre_affaires": {
+      "2024": 7200000000,
+      "2023": 6800000000,
+      "2022": 6400000000,
+      "2021": 6000000000,
+      "2020": 5600000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Al Habtoor Group",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Construction & Materials",
+    "marche": "Construction",
+    "chiffre_affaires": {
+      "2024": 3200000000,
+      "2023": 3000000000,
+      "2022": 2800000000,
+      "2021": 2600000000,
+      "2020": 2400000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Damac Properties",
+    "logo_url": "https://www.damacproperties.com/assets/img/damac-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Construction & Materials",
+    "marche": "Construction",
+    "chiffre_affaires": {
+      "2024": 2800000000,
+      "2023": 2600000000,
+      "2022": 2400000000,
+      "2021": 2200000000,
+      "2020": 2000000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Saudi Cement Company",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Construction & Materials",
+    "marche": "Building Materials",
+    "chiffre_affaires": {
+      "2024": 1500000000,
+      "2023": 1400000000,
+      "2022": 1300000000,
+      "2021": 1200000000,
+      "2020": 1100000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Arabtec Construction",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Construction & Materials",
+    "marche": "Construction",
+    "chiffre_affaires": {
+      "2024": 2200000000,
+      "2023": 2100000000,
+      "2022": 2000000000,
+      "2021": 1900000000,
+      "2020": 1800000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Masdar",
+    "logo_url": "https://masdar.ae/assets/img/masdar-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
+    "industrie": "Renewable Energy",
+    "marche": "Solar",
+    "chiffre_affaires": {
+      "2024": 2500000000,
+      "2023": 2300000000,
+      "2022": 2100000000,
+      "2021": 1900000000,
+      "2020": 1700000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "ACWA Power",
+    "logo_url": "https://www.acwapower.com/assets/img/acwa-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Oman"],
+    "industrie": "Renewable Energy",
+    "marche": "Solar",
+    "chiffre_affaires": {
+      "2024": 3200000000,
+      "2023": 3000000000,
+      "2022": 2800000000,
+      "2021": 2600000000,
+      "2020": 2400000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Yellow Door Energy",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Renewable Energy",
+    "marche": "Solar",
+    "chiffre_affaires": {
+      "2024": 450000000,
+      "2023": 420000000,
+      "2022": 380000000,
+      "2021": 350000000,
+      "2020": 320000000
+    },
+    "collaborateurs": "500–1000"
+  },
+  {
+    "nom": "Qatar Solar Technologies",
+    "logo_url": "N/A",
+    "pays_HQ": "Qatar",
+    "pays_activites": ["Qatar", "United Arab Emirates"],
+    "industrie": "Renewable Energy",
+    "marche": "Solar",
+    "chiffre_affaires": {
+      "2024": 850000000,
+      "2023": 800000000,
+      "2022": 750000000,
+      "2021": 700000000,
+      "2020": 650000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Siraj Power",
+    "logo_url": "N/A",
+    "pays_HQ": "Qatar",
+    "pays_activites": ["Qatar", "United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Renewable Energy",
+    "marche": "Solar",
+    "chiffre_affaires": {
+      "2024": 680000000,
+      "2023": 650000000,
+      "2022": 620000000,
+      "2021": 590000000,
+      "2020": 560000000
+    },
+    "collaborateurs": "500–1000"
+  },
+  {
+    "nom": "Strata Manufacturing",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Aerospace & Defense",
+    "marche": "Aerospace Assembly",
+    "chiffre_affaires": {
+      "2024": 1200000000,
+      "2023": 1100000000,
+      "2022": 1000000000,
+      "2021": 900000000,
+      "2020": 800000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Saudi Arabian Military Industries",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Aerospace & Defense",
+    "marche": "Defense",
+    "chiffre_affaires": {
+      "2024": 2800000000,
+      "2023": 2600000000,
+      "2022": 2400000000,
+      "2021": 2200000000,
+      "2020": 2000000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Mubadala Aerospace",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Aerospace & Defense",
+    "marche": "MRO",
+    "chiffre_affaires": {
+      "2024": 1800000000,
+      "2023": 1700000000,
+      "2022": 1600000000,
+      "2021": 1500000000,
+      "2020": 1400000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Calidus",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Aerospace & Defense",
+    "marche": "Aerospace Assembly",
+    "chiffre_affaires": {
+      "2024": 650000000,
+      "2023": 600000000,
+      "2022": 550000000,
+      "2021": 500000000,
+      "2020": 450000000
+    },
+    "collaborateurs": "500–1000"
+  },
+  {
+    "nom": "Julphar",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Pharmaceuticals & Biotechnology",
+    "marche": "Pharmaceutical Production",
+    "chiffre_affaires": {
+      "2024": 850000000,
+      "2023": 800000000,
+      "2022": 750000000,
+      "2021": 700000000,
+      "2020": 650000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Spimaco",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Kuwait"],
+    "industrie": "Pharmaceuticals & Biotechnology",
+    "marche": "Pharmaceutical Production",
+    "chiffre_affaires": {
+      "2024": 1200000000,
+      "2023": 1100000000,
+      "2022": 1000000000,
+      "2021": 900000000,
+      "2020": 800000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Tabuk Pharmaceutical",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Pharmaceuticals & Biotechnology",
+    "marche": "Pharmaceutical Production",
+    "chiffre_affaires": {
+      "2024": 680000000,
+      "2023": 650000000,
+      "2022": 620000000,
+      "2021": 590000000,
+      "2020": 560000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Riyadh Pharma",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "Kuwait"],
+    "industrie": "Pharmaceuticals & Biotechnology",
+    "marche": "Pharmaceutical Production",
+    "chiffre_affaires": {
+      "2024": 450000000,
+      "2023": 420000000,
+      "2022": 390000000,
+      "2021": 360000000,
+      "2020": 330000000
+    },
+    "collaborateurs": "500–1000"
+  },
+  {
+    "nom": "DP World",
+    "logo_url": "https://www.dpworld.com/assets/img/dp-world-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires": {
+      "2024": 12500000000,
+      "2023": 11800000000,
+      "2022": 11200000000,
+      "2021": 10600000000,
+      "2020": 10000000000
+    },
+    "collaborateurs": "10000–25000"
+  },
+  {
+    "nom": "Jebel Ali Free Zone",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Trade/Service Free Zones",
+    "chiffre_affaires": {
+      "2024": 5200000000,
+      "2023": 4900000000,
+      "2022": 4600000000,
+      "2021": 4300000000,
+      "2020": 4000000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Saudi Logistics Services",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires": {
+      "2024": 3800000000,
+      "2023": 3600000000,
+      "2022": 3400000000,
+      "2021": 3200000000,
+      "2020": 3000000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Hamad Port",
+    "logo_url": "N/A",
+    "pays_HQ": "Qatar",
+    "pays_activites": ["Qatar", "United Arab Emirates"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires": {
+      "2024": 2200000000,
+      "2023": 2100000000,
+      "2022": 2000000000,
+      "2021": 1900000000,
+      "2020": 1800000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Sohar Port",
+    "logo_url": "N/A",
+    "pays_HQ": "Oman",
+    "pays_activites": ["Oman", "United Arab Emirates"],
+    "industrie": "Logistics & Industrial Free Zones",
+    "marche": "Ports & Logistics Hubs",
+    "chiffre_affaires": {
+      "2024": 1400000000,
+      "2023": 1300000000,
+      "2022": 1200000000,
+      "2021": 1100000000,
+      "2020": 1000000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Etisalat by e&",
+    "logo_url": "https://www.etisalat.ae/assets/img/etisalat-logo.svg",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar", "Oman"],
+    "industrie": "Industrial Technology",
+    "marche": "IoT",
+    "chiffre_affaires": {
+      "2024": 14200000000,
+      "2023": 13800000000,
+      "2022": 13400000000,
+      "2021": 13000000000,
+      "2020": 12600000000
+    },
+    "collaborateurs": "10000–25000"
+  },
+  {
+    "nom": "STC",
+    "logo_url": "https://www.stc.com.sa/assets/img/stc-logo.svg",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates", "Qatar", "Kuwait"],
+    "industrie": "Industrial Technology",
+    "marche": "IoT",
+    "chiffre_affaires": {
+      "2024": 15800000000,
+      "2023": 15400000000,
+      "2022": 15000000000,
+      "2021": 14600000000,
+      "2020": 14200000000
+    },
+    "collaborateurs": "10000–25000"
+  },
+  {
+    "nom": "Khazna Data Centers",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Industrial Technology",
+    "marche": "Data Centers",
+    "chiffre_affaires": {
+      "2024": 850000000,
+      "2023": 800000000,
+      "2022": 750000000,
+      "2021": 700000000,
+      "2020": 650000000
+    },
+    "collaborateurs": "500–1000"
+  },
+  {
+    "nom": "NEOM Tech & Digital",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Industrial Technology",
+    "marche": "Industrial R&D",
+    "chiffre_affaires": {
+      "2024": 1500000000,
+      "2023": 1400000000,
+      "2022": 1300000000,
+      "2021": 1200000000,
+      "2020": 1100000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Al-Futtaim Automotive",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Mobility & Electrification",
+    "marche": "Vehicle Assembly",
+    "chiffre_affaires": {
+      "2024": 4200000000,
+      "2023": 4000000000,
+      "2022": 3800000000,
+      "2021": 3600000000,
+      "2020": 3400000000
+    },
+    "collaborateurs": "5000–10000"
+  },
+  {
+    "nom": "Lucid Motors Middle East",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Mobility & Electrification",
+    "marche": "EV Ecosystem",
+    "chiffre_affaires": {
+      "2024": 2800000000,
+      "2023": 2600000000,
+      "2022": 2400000000,
+      "2021": 2200000000,
+      "2020": 2000000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Ceer Motors",
+    "logo_url": "N/A",
+    "pays_HQ": "Saudi Arabia",
+    "pays_activites": ["Saudi Arabia", "United Arab Emirates"],
+    "industrie": "Mobility & Electrification",
+    "marche": "EV Ecosystem",
+    "chiffre_affaires": {
+      "2024": 1200000000,
+      "2023": 1100000000,
+      "2022": 1000000000,
+      "2021": 900000000,
+      "2020": 800000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Al Ghurair Investment",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Manufacturing & Light Industry",
+    "marche": "Light Manufacturing",
+    "chiffre_affaires": {
+      "2024": 2400000000,
+      "2023": 2200000000,
+      "2022": 2000000000,
+      "2021": 1800000000,
+      "2020": 1600000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Al Ain Dairy",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia"],
+    "industrie": "Agri-Industry",
+    "marche": "Food Transformation",
+    "chiffre_affaires": {
+      "2024": 1100000000,
+      "2023": 1000000000,
+      "2022": 950000000,
+      "2021": 900000000,
+      "2020": 850000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
+    "nom": "Agthia Group",
+    "logo_url": "N/A",
+    "pays_HQ": "United Arab Emirates",
+    "pays_activites": ["United Arab Emirates", "Saudi Arabia", "Qatar"],
+    "industrie": "Agri-Industry",
+    "marche": "Food Transformation",
+    "chiffre_affaires": {
+      "2024": 1400000000,
+      "2023": 1300000000,
+      "2022": 1200000000,
+      "2021": 1100000000,
+      "2020": 1000000000
+    },
+    "collaborateurs": "1000–5000"
+  },
+  {
